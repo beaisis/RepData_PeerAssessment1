@@ -22,19 +22,7 @@ library(dplyr,warn.conflicts=FALSE)
 ***
 
 ```r
-ActivityData <- read.csv("./repdata-data-activity/activity.csv")
-```
-
-```
-## Warning in file(file, "rt"): cannot open file './repdata-data-activity/
-## activity.csv': No such file or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
-
-```r
+ActivityData <- read.csv("C:/2015 R Folder/RepData_PeerAssessment1/repdata-data-activity/activity.csv")
 #date into dateformat:
 ActivityData$date <- ymd(ActivityData$date)
 ```

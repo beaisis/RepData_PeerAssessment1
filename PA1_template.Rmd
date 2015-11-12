@@ -20,7 +20,8 @@ library(dplyr,warn.conflicts=FALSE)
 ###Load and preprocess the Activity dataset
 ***
 ```{r}
-ActivityData <- read.csv("./repdata-data-activity/activity.csv")
+
+ActivityData <- read.csv("C:/2015 R Folder/RepData_PeerAssessment1/repdata-data-activity/activity.csv")
 #date into dateformat:
 ActivityData$date <- ymd(ActivityData$date)
 ```
